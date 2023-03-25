@@ -1,0 +1,178 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Proxima Nova', sans-serif;
+	overflow-x: hidden;
+	background-color: rgb(30, 30, 30);
+}
+
+.nav {
+	color: #fff;
+	padding: 0.3em 2em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.right__panel {
+	display: flex;
+	align-items: center;
+}
+
+.right__panel img {
+	width: 150px;
+}
+
+.right__panel ul {
+	display: flex;
+}
+
+.right__panel ul li {
+	margin: 0 1em;
+	list-style-type: none;
+}
+
+.left__panel ul {
+	align-items: center;
+}
+
+.left__panel ul li {
+	list-style-type: none;
+	margin: 0 0.5em;
+}
+
+.left__panel ul li i {
+	font-size: 1em;
+}
+
+.left__panel ul li img {
+	width: 30px;
+	border-radius: 5px;
+}
+
+.left__panel ul {
+	display: flex;
+}
+
+.fa-bell {
+	position: relative;
+}
+
+.fa-bell span {
+	position: absolute;
+	top: -1em;
+	left: 0.5em;
+	background-color: red;
+	padding: 0.3em;
+	border-radius: 50%;
+	font-size: 12px;
+}
+
+/* hero */
+
+.hero {
+	background-image: linear-gradient(
+			to top,
+			rgb(20, 20, 20) 0%,
+			transparent 100%
+		),
+		url('https://i0.wp.com/www.heyuguys.com/images/2015/10/star-wars-the-force-awakens-poster-landscape.jpg?fit=1536%2C864&ssl=1');
+	background-size: cover;
+	background-blend-mode: darken;
+	height: 95vh;
+}
+
+.hero__container {
+	margin-top: 7em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+.hero__right__panel {
+	color: #fff;
+	width: 500px;
+	padding-left: 2em;
+}
+
+.hero__right__panel p {
+	margin: 0.5em 0;
+}
+
+.hero__right__panel img {
+	width: 250px;
+}
+
+.hero__left__panel i {
+	margin-right: 1em;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 0.5em;
+	border-radius: 50%;
+}
+
+.hero__left__panel span {
+	color: #fff;
+	border-left: 2px solid #fff;
+	padding: 1em 2em;
+	background-color: rgba(117, 117, 117, 0.474);
+}
+
+.cta__play {
+	margin-right: 1em;
+	background-color: rgb(255, 255, 255);
+	border: none;
+
+	padding: 0.8em 2em;
+	border-radius: 5px;
+}
+
+.cta__more__info {
+	margin-right: 1em;
+	background-color: rgb(115, 115, 115);
+	border: none;
+	padding: 0.8em 2em;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/* media */
+.new__release__container {
+	margin-left: 2em;
+}
+
+.new__release__container h3 {
+	color: #fff;
+}
+
+.media__container {
+	display: flex;
+}
+
+.media__landscape__container {
+	margin-right: 0.5em;
+	background: blue;
+}
+
+.media__landscape__container__img {
+	width: 300px;
+	height: 150px;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.media__landscape__container__img:hover {
+	width: 400px;
+	height: 300px;
+	z-index: 1;
+	transform: scale(1.1);
+}
+
+.card {
+	bottom: 0;
+}

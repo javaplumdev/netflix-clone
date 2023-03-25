@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Proxima Nova', sans-serif;
+  overflow-x: hidden;
+  background-color: #1e1e1e;
+}
+
+.nav {
+  color: #fff;
+  padding: 0.3em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right__panel img {
+  width: 150px;
+}
+
+.right__panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right__panel ul li {
+  margin: 0 1em;
+  list-style-type: none;
+}
+
+.left__panel ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left__panel ul li {
+  list-style-type: none;
+  margin: 0 0.5em;
+}
+
+.left__panel ul li i {
+  font-size: 1em;
+}
+
+.left__panel ul li img {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.left__panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fa-bell {
+  position: relative;
+}
+
+.fa-bell span {
+  position: absolute;
+  top: -1em;
+  left: 0.5em;
+  background-color: red;
+  padding: 0.3em;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+/* hero */
+.hero {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(20, 20, 20, 0.327)), to(transparent)), url("https://variety.com/wp-content/uploads/2023/03/The-Magicians-Elephant.jpg?w=1000");
+  background-image: linear-gradient(to top, rgba(20, 20, 20, 0.327) 0%, transparent 100%), url("https://variety.com/wp-content/uploads/2023/03/The-Magicians-Elephant.jpg?w=1000");
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+}
+
+.hero__container {
+  margin-top: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.hero__right__panel {
+  color: #fff;
+  width: 500px;
+  padding-left: 2em;
+}
+
+.hero__right__panel p {
+  margin: 0.5em 0;
+}
+
+.hero__right__panel img {
+  width: 250px;
+}
+
+.hero__left__panel i {
+  margin-right: 1em;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.hero__left__panel span {
+  color: #fff;
+  border-left: 2px solid #fff;
+  padding: 1em 2em;
+  background-color: rgba(117, 117, 117, 0.474);
+}
+
+.cta__play {
+  margin-right: 1em;
+  background-color: white;
+  border: none;
+  padding: 0.8em 2em;
+  border-radius: 5px;
+}
+
+.cta__more__info {
+  margin-right: 1em;
+  background-color: #737373;
+  border: none;
+  padding: 0.8em 2em;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* media */
+.media__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5em;
+}
+
+.media__landscape__container__img {
+  width: 300px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  margin-right: 0.5em;
+}
+
+.media__landscape__container__img__onHover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  width: 300px;
+  height: 200px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 0.5em;
+}
+
+.card {
+  opacity: 0;
+}
+
+.card__onHover {
+  width: 300px;
+  height: 100px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  background-color: red;
+  padding: 1em;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
